@@ -74,6 +74,7 @@ public class MainFrame extends JFrame {
             public void actionPerformed(ActionEvent e) {
 
                 // geting values from fields and converting types
+                ProductList.setText("");
                 String idText = TId.getText();
                 int ProductID = idText.isEmpty() ? 0 : Integer.parseInt(idText);
 
@@ -145,7 +146,6 @@ public class MainFrame extends JFrame {
                 TPrice.setText("");
                 TVol.setText("");
                 TTemp.setText("");
-                ProductList.setText("");
 
             }
 
